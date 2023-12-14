@@ -1,0 +1,121 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: Poppins, sans-serif;
+    margin: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 1rem 1rem 8rem 1rem;
+    padding: 2rem 3rem;
+    min-width: 600px;
+}
+/* 
+svg {
+    color: blue;
+    background-color: blueviolet;
+    border-radius: 100%;
+} */
+
+.centering {
+    display: grid;
+    /* place-content: center; */
+    align-items: center;
+}
+
+.circle {
+    position: relative;
+    justify-self: end;
+    bottom: 30px;
+    background-color:hsl(259, 100%, 65%);
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:hover {
+    background-color: hsl(259, 100%, 50%);
+}
+
+.underline {
+    /* position: relative; */
+    padding: 2rem;
+    /* width: 530px; */
+    border-bottom: 1px solid grey;
+    align-self: center;
+    /* justify-self: center;
+    align-self: center; */
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: start;
+    align-items: start;
+    max-width: 430px; 
+}
+
+/* label:nth-of-type(2) {
+    grid-: 
+    
+} */
+
+label {
+    grid-row: 1; 
+    font-weight: 400;
+    text-transform: uppercase;
+    color: hsl(0, 1%, 44%);
+    font-size: .8rem;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+input[type='number'] {
+    font-size: 24px;
+    padding: .5rem 1rem;
+    max-width: 8rem; 
+    /* border: 2px solid hsl(259, 100%, 65%); */
+
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+.result {
+    margin-top: -1.5rem;
+    display: grid;
+}
+
+.total {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4rem;
+    line-height: 1;
+}
+.total span {
+    color: hsl(259, 100%, 65%);
+}
+
+input[type='number']:hover,
+input[type='number']:focus {
+    outline: 1.25px solid hsl(259, 100%, 65%);
+}
