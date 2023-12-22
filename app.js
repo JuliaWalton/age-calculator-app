@@ -84,12 +84,3 @@ function handleSubmit() {
 }
 
 
-// function handleSubmit() {
-// //     if (validate()) {
-
-
-
-
-// }
-
-

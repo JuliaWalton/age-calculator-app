@@ -21,16 +21,9 @@ body {
     padding: 2rem 3rem;
     min-width: 600px;
 }
-/* 
-svg {
-    color: blue;
-    background-color: blueviolet;
-    border-radius: 100%;
-} */
 
 .centering {
     display: grid;
-    /* place-content: center; */
     align-items: center;
 }
 
@@ -53,13 +46,9 @@ svg {
 }
 
 .underline {
-    /* position: relative; */
     padding: 2rem;
-    /* width: 530px; */
     border-bottom: 1px solid grey;
     align-self: center;
-    /* justify-self: center;
-    align-self: center; */
 }
 
 .form {
@@ -70,11 +59,6 @@ svg {
     align-items: start;
     max-width: 430px; 
 }
-
-/* label:nth-of-type(2) {
-    grid-: 
-    
-} */
 
 label {
     grid-row: 1; 
@@ -90,15 +74,7 @@ input[type='number'] {
     font-size: 24px;
     padding: .5rem 1rem;
     max-width: 8rem; 
-    /* border: 2px solid hsl(259, 100%, 65%); */
-
 }
-
-/* input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-} */
 
 .result {
     margin-top: -1.5rem;
